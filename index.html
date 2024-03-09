@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent A Car</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Search for a rental car</h1>
+
+      <div class="main-text-container">
+        <div class="top-container">
+          <p>Pick up location</p>
+          <input
+            class="location"
+            type="text"
+            name="text"
+            id="text"
+            placeholder="City, airport, region, district..."
+          />
+          <div class="deliver-check">
+            <input type="checkbox" name="" id="checkbox" />
+            <label for="checkbox">Deliver the car somewhere else</label>
+          </div>
+        </div>
+
+        <div class="middle-container">
+          <div class="left">
+            <p>Date of pickup</p>
+            <input type="date" name="date" id="date" />
+
+            <div class="together">
+              <input type="time" name="" id="" placeholder="10" />
+              <input type="time" name="" id="" placeholder="00" />
+            </div>
+          </div>
+
+          <div class="right">
+            <p>Date of delivery</p>
+            <input type="date" name="date" id="date" />
+
+            <div class="together">
+              <input type="time" name="" id="" placeholder="10" />
+              <input type="time" name="" id="" placeholder="00" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-container">
+          <div class="top">
+            <input type="checkbox" name="" id="age" />
+            <label for="age">The driver’s age between 30 and 65?</label>
+            <img src="./info.png" alt="" />
+          </div>
+
+          <div class="bottom">
+            <div>
+              <img src="./tick.png" alt="" />
+              <p>No credit card fees</p>
+            </div>
+            <div>
+              <img src="./tick.png" alt="" />
+              <p>No change fees</p>
+            </div>
+            <div>
+              <img src="./tick.png" alt="" />
+              <p>Price match guarantee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button>Search</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
